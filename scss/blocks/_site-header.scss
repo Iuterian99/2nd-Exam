@@ -1,0 +1,186 @@
+.site-header {
+  // width: 80%;
+  // max-width: 1106px;
+  height: 100%;
+  max-height: 53px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  padding: 35px 0;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.scoot-logo {
+  padding-right: 60px;
+}
+
+.site-nav {
+  display: none;
+}
+
+.nav__list {
+  @include reset-list();
+  display: flex;
+}
+
+.navbar__item+.navbar__item {
+  padding-left: 32px;
+}
+
+.navbar-link {
+  @include reset-list();
+  height: 25px;
+  left: 0%;
+  right: 81.53%;
+  top: calc(50% - 25px/2);
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+}
+
+.header-right {
+  width: 100%;
+  max-width: 180px;
+  height: 100%;
+  max-height: 53px;
+  background-color: #FCB72B;
+}
+
+.header-right-get-scootin {
+  padding: 14px 39px;
+  height: 25px;
+  left: 21.67%;
+  right: 21.67%;
+  top: calc(50% - 25px/2);
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.hamburger-btn {
+  display: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.hamburger {}
+
+@media only screen and (max-width: 376px) {
+  .hamburger-btn {
+    display: block;
+    order: -1;
+  }
+
+  .header--adaptive .site-nav {
+    display: block;
+    position: fixed;
+    width: 100%;
+    max-width: 256px;
+    height: 100%;
+    // position: relative;
+  }
+
+ .site-header {
+   width: 100%;
+   max-width: 375px;
+   height: 100%;
+   max-height: 64px;
+  //  position: relative;
+ }
+
+  .header-container {
+    display: flex;
+    align-items: center;
+    padding: 35px 0;
+    justify-content: space-evenly;
+    position: relative;
+  }
+
+  .site-nav {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    display: none;
+     width: 256px;
+     height: 603px;
+     left: 0px;
+     top: 64px;
+     background-color: #333A44;
+  }
+
+  .nav__list {
+    flex-direction: column;
+    text-align: center;
+    width: 89px;
+    height: 123px;
+    left: 32px;
+    top: 128px;
+    padding-top: 64px;
+    padding-left: 32px;
+  }
+
+  .navbar__item {
+    padding: 0
+  }
+
+  .navbar__item:nth-child(1) {
+    padding-left: 31px;
+  }
+
+  .navbar__item+.navbar__item {
+    padding-top: 24px;
+  }
+
+
+  .navbar-link {}
+
+  .header-right {
+    position: absolute;
+    top: 500px;
+    left: 30px;
+    z-index: 11;
+    display: block;
+     width: 100%;
+     max-width: 192px;
+     height: 100%;
+     max-height: 53px;
+  }
+
+  .header-right .header-right-get-scootin {
+   display: inline-block;
+   padding: auto;
+   height: 25px;
+   left: 0%;
+   right: 0%;
+   top: calc(50% - 25px/2);
+   font-family: Space Mono;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 15px;
+   line-height: 25px;
+   text-align: center;
+   color: #FFFFFF;
+  }
+  .scoot-logo {
+    
+  }
+
+
+}
