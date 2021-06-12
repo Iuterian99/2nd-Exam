@@ -90,8 +90,8 @@
   .hamburger-btn {
     display: block;
     order: -1;
-    padding-right: 50px;
-    padding-left: 50px;
+    width: 30px;
+    height: 20px;
   }
 
   .header--adaptive .site-nav {
@@ -158,9 +158,8 @@
   .navbar-link {}
 
   .header-right {
-    display: none;
-    // position: absolute;
-    bottom: 0;
+    position: absolute;
+    top: 700px;
     left: 30px;
     z-index: 11;
     display: block;
@@ -171,8 +170,7 @@
   }
 
   .header-right .header-right-get-scootin {
-  //  display: inline-block;
-  display: none;
+   display: inline-block;
    padding: auto;
    height: 25px;
    left: 0%;
@@ -187,7 +185,7 @@
    color: #FFFFFF;
   }
   .scoot-logo {
-    
+  align-items: center;
   }
 
 
