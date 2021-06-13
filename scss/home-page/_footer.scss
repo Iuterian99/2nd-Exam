@@ -6,10 +6,6 @@ max-height: 96px;
 background: #333A44;
 }
 
-.footer__container{
-
-}
-
 .footer__content{
 padding: 35px;
 display: flex;
@@ -52,6 +48,12 @@ color: #939CAA;
 @include reset-list();
 }
 
+.footer__navbar-link:hover {
+  color: #FCB72B;
+}
+
 .twitter-img{
   padding: 0 20px;
 }
+
+

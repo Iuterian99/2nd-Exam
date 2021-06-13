@@ -56,6 +56,10 @@ background-color: #F2F5F9;
 padding: 32px 40px;
 }
 
+.how-download:hover{
+  background-color: #FFF4DF;
+}
+
 .how-download__h3{
 height: 28px;
 left: 0%;
@@ -93,8 +97,11 @@ left: 545px;
 top: 2593px;
 background-color: #F2F5F9;
 padding-left: 40px;
-display: flex;
-text-align: center;
+padding: 10px 30px;
+}
+
+.how-find:hover {
+  background-color: #FFF4DF;
 }
 
 .how-find__h3{
@@ -109,6 +116,8 @@ font-size: 24px;
 line-height: 28px;
 letter-spacing: -1.07143px;
 color: #495567;
+display: flex;
+justify-content: space-between;
 }
 
 .how-need{
@@ -119,8 +128,11 @@ left: 545px;
 top: 2701px;
 background-color: #F2F5F9;
 padding-left: 40px;
-display: flex;
-text-align: center;
+padding: 10px 30px;
+}
+
+.how-need:hover {
+  background-color: #FFF4DF;
 }
 
 .how-need__h3{
@@ -135,6 +147,8 @@ font-size: 24px;
 line-height: 28px;
 letter-spacing: -1.07143px;
 color: #495567;
+display: flex;
+justify-content: space-between;
 }
 
 .faqs-bottom{
@@ -165,6 +179,10 @@ left: 545px;
 top: 2857px;
 background: #F2F5F9;
 padding: 32px 40px;
+}
+
+.how-wear:hover {
+  background-color: #FFF4DF;
 }
 
 .how-wear__h3{
@@ -204,8 +222,11 @@ left: 545px;
 top: 3064px;
 background-color: #F2F5F9;
 padding-left: 40px;
-display: flex;
-text-align: center;
+padding: 10px 30px;
+}
+
+.how-about:hover {
+  background-color: #FFF4DF;
 }
 
 .how-about__h3{
@@ -220,6 +241,8 @@ font-size: 24px;
 line-height: 28px;
 letter-spacing: -1.07143px;
 color: #495567;
+display: flex;
+justify-content: space-between;
 }
 
 .how-if{
@@ -230,8 +253,11 @@ left: 545px;
 top: 3172px;
 background-color: #F2F5F9;
 padding-left: 40px;
-display: flex;
-text-align: center;
+padding: 10px 30px;
+}
+
+.how-if:hover {
+  background-color: #FFF4DF;
 }
 
 .how-if__h3{
@@ -246,4 +272,6 @@ font-size: 24px;
 line-height: 28px;
 letter-spacing: -1.07143px;
 color: #495567;
+display: flex;
+justify-content: space-between;
 }
