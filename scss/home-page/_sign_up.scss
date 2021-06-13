@@ -1,0 +1,37 @@
+.sign-up{
+  margin-top: 200px;
+  background-image: url(../images/sign-up-background.svg);
+  background-repeat: no-repeat;
+  background-size: 1440px 300px;
+}
+
+.sign-up__container{
+width: 100%;
+max-width: 1440px;
+height: 100%;
+max-height: 300px;
+}
+
+.sign-up-content{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 80px;
+}
+
+.sign-up__h2{
+width: 415px;
+height: 96px;
+font-family: Space Mono;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 48px;
+letter-spacing: -2.14286px;
+color: #FFFFFF;
+margin-right: 20px;
+}
+
+.googleplay-img {
+padding-left: 20px;
+}

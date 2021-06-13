@@ -6,6 +6,7 @@
 .first-section-list{
 @include reset-list();
 display: flex;
+flex-wrap: wrap;
 }
 
 .first-section-container::before {
