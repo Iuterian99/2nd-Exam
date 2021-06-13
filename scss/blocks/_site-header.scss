@@ -1,25 +1,24 @@
 .site-header {
-   position: fixed;
-   z-index: 20;
-   top: 0;
-   left: 0;
-   width: 100%;
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
 }
 
 .header-container {
-   width: 100%;
-   max-width: 1106px;
-   height: 100%;
-   max-height: 53px;
-  display: flex;
+  width: 100%;
+  max-width: 1100px;
+  height: 100%;
+  max-height: 96px;
   align-items: center;
   padding: 35px 0;
-  justify-content: space-between;
+  display: flex;
 }
 
-.header-left {
-  display: flex;
-  align-items: center;
+.scoot-logo-link {
+  @include reset-list();
 }
 
 .scoot-logo {
@@ -27,7 +26,10 @@
 }
 
 .site-nav {
-  display: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav__list {
@@ -53,21 +55,17 @@
   color: #939CAA;
 }
 
-.header-right {
-  width: 100%;
-  max-width: 180px;
-  height: 100%;
-  max-height: 53px;
-  background-color: #FCB72B;
+.navbar-link:hover {
+  color: #FCB72B;
 }
 
 .header-right-get-scootin {
+  width: 100%;
+  max-width: 185px;
+  background-color: #FCB72B;
   padding: 14px 39px;
-  height: 25px;
-  left: 21.67%;
-  right: 21.67%;
   top: calc(50% - 25px/2);
-  font-family: Space Mono;
+  font-family: 'Space Mono';
   font-style: normal;
   font-weight: bold;
   font-size: 15px;
@@ -75,6 +73,13 @@
   text-align: center;
   color: #FFFFFF;
   text-decoration: none;
+  border: 3px solid white;
+}
+
+.header-right-get-scootin:hover {
+  background-color: white;
+  border-color: #FCB72B;
+  color: #FCB72B;
 }
 
 .hamburger-btn {
@@ -84,14 +89,43 @@
   cursor: pointer;
 }
 
-.hamburger {}
+.hamburger-btn .hamburger-exit {
+  display: none;
+}
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 768px) {
+  .site-header {
+    width: 100%;
+    max-width: 768px;
+    height: 100%;
+    max-height: 96px;
+  }
+
+  .header-container {
+    width: 100%;
+    max-width: 768px;
+    height: 100%;
+    max-height: 96px;
+    display: flex;
+    align-items: center;
+    padding: 35px 40px;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 603px) {
   .hamburger-btn {
     display: block;
     order: -1;
     width: 30px;
     height: 20px;
+    z-index: 21;
+    padding-left: 10px;
+  }
+
+  .site-nav {
+    display: none;
+    position: relative;
   }
 
   .header--adaptive .site-nav {
@@ -99,22 +133,19 @@
     position: fixed;
     width: 80%;
     height: 100%;
-    // position: relative;
   }
 
- .site-header {
-   width: 100%;
-   max-width: 375px;
-   height: 100%;
-   max-height: 64px;
-  //  position: relative;
- }
-
-  .header-container {
+  .site-header {
+    width: 100%;
+    max-width: 603px;
+    height: 100%;
+    max-height: 64px;
     display: flex;
     align-items: center;
-    padding: 35px 0;
-    justify-content: space-evenly;
+    justify-content: space-between;
+  }
+
+  .header-container {
     position: relative;
   }
 
@@ -124,11 +155,10 @@
     bottom: 0;
     z-index: 10;
     display: none;
-     width: 256px;
-     height: 603px;
-     left: 0px;
-     top: 64px;
-     background-color: #333A44;
+    width: 256px;
+    left: 0px;
+    top: 96px;
+    background-color: #333A44;
   }
 
   .nav__list {
@@ -154,38 +184,40 @@
     padding-top: 24px;
   }
 
+  .header-right-get-scootin {
+    display: none;
+  }
 
-  .navbar-link {}
-
-  .header-right {
+  .header--adaptive .header-right-get-scootin {
     position: absolute;
-    top: 500px;
-    left: 30px;
-    z-index: 11;
+    bottom: 0;
     display: block;
-     width: 100%;
-     max-width: 192px;
-     height: 100%;
-     max-height: 53px;
+    width: 192px;
+    height: 53px;
+    padding: auto;
+    top: calc(50% - 25px/2);
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
   }
 
-  .header-right .header-right-get-scootin {
-   display: inline-block;
-   padding: auto;
-   height: 25px;
-   left: 0%;
-   right: 0%;
-   top: calc(50% - 25px/2);
-   font-family: Space Mono;
-   font-style: normal;
-   font-weight: bold;
-   font-size: 15px;
-   line-height: 25px;
-   text-align: center;
-   color: #FFFFFF;
+  .header--adaptive .hamburge-exit {
+    display: block;
   }
+
+  .hamburger {
+    display: none;
+  }
+
   .scoot-logo {
-  align-items: center;
+    align-items: center;
+    padding: 0 auto;
+    order: 1;
+    z-index: 21;
   }
 
 

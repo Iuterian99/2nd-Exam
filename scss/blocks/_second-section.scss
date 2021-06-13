@@ -1,0 +1,67 @@
+.second-section__container {}
+
+.second-section__list {
+  @include reset-list();
+}
+
+.second-section__list-item {}
+
+.person-img::before {
+  display: inline-block;
+  content: '';
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  background-image: url(../../images/second-section-person.svg);
+  background-repeat: no-repeat;
+}
+
+.street-img::before {
+  display: inline-block;
+  content: '';
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  background-image: url(../../images/second-section-street.svg);
+  background-repeat: no-repeat;
+}
+
+.pocket-img::before {
+  display: inline-block;
+  content: '';
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  background-image: url(../../images/second-section-street.svg);
+  background-repeat: no-repeat;
+}
+.second-section__h2 {
+  width: 445px;
+  height: 96px;
+  left: 165px;
+  top: 1463px;
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.second-section__p {
+  width: 445px;
+  height: 100px;
+  left: 830px;
+  top: 2188px;
+  font-family: Lexend Deca;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+}
+
+.second-section__get-scootin {
+  margin: 0;
+}

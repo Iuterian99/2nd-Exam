@@ -1,0 +1,99 @@
+.first-section-container{
+  padding: 40px 20px;
+  position: relative;
+}
+
+.first-section-list{
+@include reset-list();
+display: flex;
+}
+
+.first-section-container::before {
+  position: absolute;
+  left: -50px;
+  top: 80px;
+ display: block;
+ content: '';
+ width: 900px;
+ height: 20px;
+ background-color: #E5ECF4;
+ display: flex;
+ z-index: 5;
+}
+
+.first-section-list-item{
+display: block;
+}
+
+.first-section-list-item + .first-section-list-item{
+padding-left: 30px;
+}
+
+.first-section-list-item-h3{
+width: 350px;
+height: 28px;
+left: 165px;
+top: 1042px;
+font-family: Space Mono;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: -1.07143px;
+color: #495567;
+}
+
+.cellphone-logo::before{
+  display: block;
+  content: '';
+  width: 100px;
+  height: 100px;
+  background-color: #FCB72B;
+  border-radius: 50%;
+  background-image: url(../images/cellphone.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  z-index: 8;
+}
+
+.Pick-your-scooter::before {
+  display: block;
+  content: '';
+  width: 100px;
+  height: 100px;
+  background-color: #FCB72B;
+  border-radius: 50%;
+  background-image: url(../images/scooter-moto.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  z-index: 8;
+}
+
+.Enjoy-the-ride::before {
+  display: block;
+  content: '';
+  width: 100px;
+  height: 100px;
+  background-color: #FCB72B;
+  border-radius: 50%;
+  background-image: url(../../images/enjoy-the-ride.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  z-index: 8;
+}
+
+.first-section-list-item-p{
+width: 350px;
+height: 100px;
+left: 165px;
+top: 1097px;
+font-family: Lexend Deca;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 25px;
+color: #939CAA;
+}

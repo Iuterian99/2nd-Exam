@@ -1,0 +1,401 @@
+// =================================================================SITE HERO=================================================================
+.hero{
+  margin-top: 96px;
+}
+
+.hero-container{
+background-image: url(../../images/scooter-background.svg);
+background-repeat: no-repeat;
+padding: 0;
+padding-bottom: 100px;
+width: 100%;
+max-width: 1440px;
+}
+
+.hero-h1 {
+  padding-top: 50px;
+  padding-left: 180px;
+  width: 100%;
+  max-width: 700px;
+  height: 100%;
+  max-height: 112px;
+  left: 165px;
+  top: 249px;
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  color: #FFFFFF;
+}
+
+.hero-p {
+  width: 100%;
+  max-width: 405px;
+  height: 100%;
+  max-height: 100px;
+  left: 260px;
+  top: 401px;
+  font-family: Lexend Deca;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  padding-left: 100px;
+  // padding-right: 100px;
+}
+
+.stick-word{
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-top: 50px;
+}
+
+.stick-word::before {
+  display: inline-block;
+  content: '';
+  width: 202.5px;
+  height: 15px;
+  background-image: url(../images/hero-before-p.svg);
+}
+
+.stick-word::after {
+  position: absolute;
+  left: 600px;
+  top: 105px;
+  margin-left: 100px;
+  display: inline-block;
+  content: '';
+  width: 450px;
+  height: 155px;
+  background-image: url(../../images/hero-continuation-of-stick.svg);
+  background-repeat: no-repeat;
+}
+
+.hero-get-scootin {
+  display: inline-block;
+  margin-left: 300px;
+  margin-top: 40px;
+}
+
+// =================================================================SITE HERO FOR LAPTOP =================================================================
+
+@media only screen and (max-width: 1160px){
+ .site-header {
+   width: 100%;
+   max-width: 1608px;
+   height: 100%;
+   max-height: 96px;
+ }
+
+ .header-container {
+   width: 100%;
+   max-width: 1160px;
+   height: 100%;
+   max-height: 96px;
+   display: flex;
+   align-items: center;
+   padding: 35px 40px;
+   justify-content: space-between;
+ }
+
+ .hero {
+   margin-top: 96px;
+ }
+
+ .hero-container {
+   width: 100%;
+   max-width: 1160px;
+   height: 100%;
+   max-height: 650px;
+ }
+
+ .hero-h1 {
+   padding-top: 100px;
+   padding-left: 50px;
+   padding-bottom: 50px;
+   width: 573px;
+   height: 112px;
+   left: 97px;
+   top: 233px;
+   font-family: Space Mono;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 56px;
+   line-height: 56px;
+   text-align: center;
+   letter-spacing: -2.5px;
+   color: #FFFFFF;
+ }
+
+ .stick-word .hero-p {
+   padding: 0 auto;
+   width: 573px;
+   height: 75px;
+   left: 97px;
+   top: 369px;
+   font-family: Lexend Deca;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 25px;
+   text-align: center;
+   color: #FFFFFF;
+ }
+.stick-word::before {
+  display: none;
+  content: '';
+  width: 202.5px;
+  height: 15px;
+  background-image: url(../images/hero-before-p.svg);
+}
+
+.stick-word::after {
+  position: absolute;
+  left: 600px;
+  top: 57px;
+  margin-left: 100px;
+  display: none;
+  content: '';
+  width: 450px;
+  height: 155px;
+  background-image: url(../../images/hero-continuation-of-stick.svg);
+  background-repeat: no-repeat;
+}
+
+.stick-word::before {
+  position: absolute;
+  left: -200px;
+  top: 205px;
+  margin-left: 100px;
+  display: inline-block;
+  content: '';
+  width: 450px;
+  height: 155px;
+  background-image: url(../../images/hero-continuation-of-stick.svg);
+  background-repeat: no-repeat;
+}
+
+ .hero-get-scootin {
+   display: block;
+   margin-left: 250px;
+   margin-top: 50px;
+ }
+
+}
+
+// =================================================================SITE HERO FOR TABLET =================================================================
+
+@media only screen and (max-width: 768px) {
+  .site-header {
+    width: 100%;
+    max-width: 768px;
+    height: 100%;
+    max-height: 96px;
+  }
+
+  .header-container {
+    width: 100%;
+    max-width: 768px;
+    height: 100%;
+    max-height: 96px;
+    display: flex;
+    align-items: center;
+    padding: 35px 40px;
+    justify-content: space-between;
+  }
+
+.hero {
+  margin-top: 96px;
+}
+
+.hero-container{
+   width: 100%;
+   max-width: 768px;
+   height: 100%;
+   max-height: 650px;
+}
+  .hero-h1{
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    width: 573px;
+    height: 112px;
+    left: 97px;
+    top: 233px;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -2.5px;
+    color: #FFFFFF;
+  }
+
+  .stick-word .hero-p{
+    padding: 0 auto;
+    width: 573px;
+    height: 75px;
+    left: 97px;
+    top: 369px;
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+.stick-word::before {
+  display: none;
+  content: '';
+  width: 202.5px;
+  height: 15px;
+  background-image: url(../images/hero-before-p.svg);
+}
+
+.stick-word::after {
+  position: absolute;
+  left: 600px;
+  top: 57px;
+  margin-left: 100px;
+  display: none;
+  content: '';
+  width: 450px;
+  height: 155px;
+  background-image: url(../../images/hero-continuation-of-stick.svg);
+  background-repeat: no-repeat;
+}
+
+.stick-word::before {
+  position: absolute;
+  left: -200px;
+  top: 205px;
+  margin-left: 100px;
+  display: inline-block;
+  content: '';
+  width: 450px;
+  height: 155px;
+  background-image: url(../../images/hero-continuation-of-stick.svg);
+  background-repeat: no-repeat;
+}
+.hero-get-scootin {
+  display: block;
+  margin-left: 250px;
+  margin-top: 50px;
+}
+}
+
+// =================================================================SITE HERO FOR MOBILE =================================================================
+
+// @media only screen and (max-width: 603px) {
+//   .site-header {
+//     width: 100%;
+//     max-width: 1608px;
+//     height: 100%;
+//     max-height: 96px;
+//   }
+
+//   .header-container {
+//     width: 100%;
+//     max-width: 1160px;
+//     height: 100%;
+//     max-height: 96px;
+//     display: flex;
+//     align-items: center;
+//     padding: 35px 40px;
+//     justify-content: space-between;
+//   }
+
+//   .hero {
+//     margin-top: 96px;
+//   }
+
+//   .hero-container {
+//     width: 100%;
+//     max-width: 1160px;
+//     height: 100%;
+//     max-height: 650px;
+//   }
+
+//   .hero-h1 {
+//     padding-top: 100px;
+//     padding-left: 50px;
+//     padding-bottom: 50px;
+//     width: 573px;
+//     height: 112px;
+//     left: 97px;
+//     top: 233px;
+//     font-family: Space Mono;
+//     font-style: normal;
+//     font-weight: bold;
+//     font-size: 56px;
+//     line-height: 56px;
+//     text-align: center;
+//     letter-spacing: -2.5px;
+//     color: #FFFFFF;
+//   }
+
+//   .stick-word .hero-p {
+//     padding: 0 auto;
+//     width: 573px;
+//     height: 75px;
+//     left: 97px;
+//     top: 369px;
+//     font-family: Lexend Deca;
+//     font-style: normal;
+//     font-weight: normal;
+//     font-size: 15px;
+//     line-height: 25px;
+//     text-align: center;
+//     color: #FFFFFF;
+//   }
+
+//   .stick-word::before {
+//     display: none;
+//     content: '';
+//     width: 202.5px;
+//     height: 15px;
+//     background-image: url(../images/hero-before-p.svg);
+//   }
+
+//   .stick-word::after {
+//     position: absolute;
+//     left: 600px;
+//     top: 57px;
+//     margin-left: 100px;
+//     display: none;
+//     content: '';
+//     width: 450px;
+//     height: 155px;
+//     background-image: url(../../images/hero-continuation-of-stick.svg);
+//     background-repeat: no-repeat;
+//   }
+
+//   .stick-word::before {
+//     position: absolute;
+//     left: -200px;
+//     top: 205px;
+//     margin-left: 100px;
+//     display: inline-block;
+//     content: '';
+//     width: 450px;
+//     height: 155px;
+//     background-image: url(../../images/hero-continuation-of-stick.svg);
+//     background-repeat: no-repeat;
+//   }
+
+//   .hero-get-scootin {
+//     display: block;
+//     margin-left: 250px;
+//     margin-top: 50px;
+//   }
+
+// }
+
+
