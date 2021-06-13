@@ -3,7 +3,7 @@
   margin-top: 96px;
 }
 
-.hero-container{
+.hero__container{
 background-image: url(../../images/scooter-background.svg);
 background-repeat: no-repeat;
 padding: 0;
@@ -12,7 +12,7 @@ width: 100%;
 max-width: 1440px;
 }
 
-.hero-h1 {
+.hero__h1 {
   padding-top: 50px;
   padding-left: 180px;
   width: 100%;
@@ -30,7 +30,7 @@ max-width: 1440px;
   color: #FFFFFF;
 }
 
-.hero-p {
+.hero__p {
   width: 100%;
   max-width: 405px;
   height: 100%;
@@ -106,14 +106,14 @@ max-width: 1440px;
    margin-top: 96px;
  }
 
- .hero-container {
+ .hero__container {
    width: 100%;
    max-width: 1160px;
    height: 100%;
    max-height: 650px;
  }
 
- .hero-h1 {
+ .hero__h1 {
    padding-top: 100px;
    padding-left: 50px;
    padding-bottom: 50px;
@@ -131,7 +131,7 @@ max-width: 1440px;
    color: #FFFFFF;
  }
 
- .stick-word .hero-p {
+ .stick-word .hero__p {
    padding: 0 auto;
    width: 573px;
    height: 75px;
@@ -212,13 +212,13 @@ max-width: 1440px;
   margin-top: 96px;
 }
 
-.hero-container{
+.hero__container{
    width: 100%;
    max-width: 768px;
    height: 100%;
    max-height: 650px;
 }
-  .hero-h1{
+  .hero__h1{
     padding-top: 100px;
     padding-left: 50px;
     padding-bottom: 50px;
@@ -236,7 +236,7 @@ max-width: 1440px;
     color: #FFFFFF;
   }
 
-  .stick-word .hero-p{
+  .stick-word .hero__p{
     padding: 0 auto;
     width: 573px;
     height: 75px;
@@ -316,14 +316,14 @@ max-width: 1440px;
 //     margin-top: 96px;
 //   }
 
-//   .hero-container {
+//   .hero__container {
 //     width: 100%;
 //     max-width: 1160px;
 //     height: 100%;
 //     max-height: 650px;
 //   }
 
-//   .hero-h1 {
+//   .hero__h1 {
 //     padding-top: 100px;
 //     padding-left: 50px;
 //     padding-bottom: 50px;
@@ -341,7 +341,7 @@ max-width: 1440px;
 //     color: #FFFFFF;
 //   }
 
-//   .stick-word .hero-p {
+//   .stick-word .hero__p {
 //     padding: 0 auto;
 //     width: 573px;
 //     height: 75px;

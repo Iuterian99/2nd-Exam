@@ -3,6 +3,7 @@
   background-image: url(../images/sign-up-background.svg);
   background-repeat: no-repeat;
   background-size: 1440px 300px;
+  width: 100%;
 }
 
 .sign-up__container{
@@ -12,7 +13,7 @@ height: 100%;
 max-height: 300px;
 }
 
-.sign-up-content{
+.sign-up__content{
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -35,3 +36,4 @@ margin-right: 20px;
 .googleplay-img {
 padding-left: 20px;
 }
+

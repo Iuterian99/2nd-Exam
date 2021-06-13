@@ -1,15 +1,15 @@
-.first-section-container{
+.first-section__container{
   padding: 40px 20px;
   position: relative;
 }
 
-.first-section-list{
+.first-section__list{
 @include reset-list();
 display: flex;
 flex-wrap: wrap;
 }
 
-.first-section-container::before {
+.first-section__container::before {
   position: absolute;
   left: -50px;
   top: 80px;
@@ -22,15 +22,15 @@ flex-wrap: wrap;
  z-index: 5;
 }
 
-.first-section-list-item{
+.first-section__list-item{
 display: block;
 }
 
-.first-section-list-item + .first-section-list-item{
+.first-section__list-item + .first-section__list-item{
 padding-left: 30px;
 }
 
-.first-section-list-item-h3{
+.first-section__list-item__h3{
 width: 350px;
 height: 28px;
 left: 165px;
@@ -58,7 +58,7 @@ color: #495567;
   z-index: 8;
 }
 
-.Pick-your-scooter::before {
+.pick-your-scooter::before {
   display: block;
   content: '';
   width: 100px;
@@ -72,7 +72,7 @@ color: #495567;
   z-index: 8;
 }
 
-.Enjoy-the-ride::before {
+.enjoy-the-ride::before {
   display: block;
   content: '';
   width: 100px;
@@ -86,7 +86,7 @@ color: #495567;
   z-index: 8;
 }
 
-.first-section-list-item-p{
+.first-section__list-item__p{
 width: 350px;
 height: 100px;
 left: 165px;

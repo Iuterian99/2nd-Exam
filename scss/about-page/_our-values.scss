@@ -1,0 +1,140 @@
+.our-values{
+margin-top: 50px;
+}
+
+.our-values__h2{
+margin: 0 auto;
+width: 540px;
+height: 48px;
+left: 450px;
+top: 1546px;
+font-family: Space Mono;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 48px;
+text-align: center;
+letter-spacing: -2.14286px;
+color: #495567;
+margin-bottom: 100px;
+}
+
+.values__list{
+@include reset-list();
+display: flex;
+margin-top: 30px;
+position: relative;
+}
+
+.values__list-item{
+margin: 0;
+}
+
+.values__list-item + .values__list-item{
+  padding-left: 20px;
+}
+
+.values-list__h3{
+width: 350px;
+height: 28px;
+left: 165px;
+top: 2024px;
+font-family: Space Mono;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+letter-spacing: -1.07143px;
+color: #495567;
+margin-top: 80px;
+}
+
+.values-list__p{
+width: 350px;
+height: 75px;
+left: 165px;
+top: 2079px;
+font-family: Lexend Deca;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+color: #939CAA;
+}
+
+.psedo-one::before {
+  display: block;
+  content: '';
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url(../images/about-values-first.svg);
+  background-repeat: no-repeat;
+}
+.psedo-two::before {
+  display: block;
+  content: '';
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url(../images/about-values-second.svg);
+  background-repeat: no-repeat;
+}
+.psedo-three::before {
+  display: block;
+  content: '';
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url(../images/about-values-third.svg);
+  background-repeat: no-repeat;
+}
+
+.values__list-item {
+  position: relative;
+}
+
+.psedo-one::after {
+ position: absolute;
+ top: 180px;
+ left: 100px;
+ display: inline-block;
+ content: '';
+ width: 100px;
+ height: 100px;
+ background-color: #FCB72B;
+ border-radius: 50%;
+ background-image: url(../images/01.svg);
+ background-repeat: no-repeat;
+ background-position: center;
+}
+.psedo-two::after {
+ position: absolute;
+ top: 180px;
+ left: 100px;
+ display: inline-block;
+ content: '';
+ width: 100px;
+ height: 100px;
+ background-color: #FCB72B;
+ border-radius: 50%;
+ background-image: url(../images/02.svg);
+ background-repeat: no-repeat;
+ background-position: center;
+}
+.psedo-three::after {
+ position: absolute;
+ top: 180px;
+ left: 100px;
+ display: inline-block;
+ content: '';
+ width: 100px;
+ height: 100px;
+ background-color: #FCB72B;
+ border-radius: 50%;
+ background-image: url(../images/03.svg);
+ background-repeat: no-repeat;
+ background-position: center;
+}
